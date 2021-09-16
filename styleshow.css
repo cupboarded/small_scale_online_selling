@@ -1,0 +1,106 @@
+ @import url('https://fonts.googleapis.com/css?family=Raleway');
+ body {
+	font-family: 'Raleway', sans-serif;
+}
+#navbar ul {
+	margin: 0; 
+	padding: 28px; 
+	list-style-type: none; 
+	text-align: right; 
+	background-color: #000; 
+	} 
+ 
+#navbar ul li {  
+	display: inline; 
+	} 
+ 
+#navbar ul li a { 
+	text-decoration: none; 
+	padding: .2em 1em; 
+	color: #fff; 
+	background-color: #000; 
+	} 
+ 
+#navbar ul li a:hover { 
+	color: #000; 
+	background-color: #fff; 
+	} 
+.step1{
+    position: absolute;
+    padding-left: 200px;
+    padding-top: 100px;
+    font-size: 30px;
+}
+.step2{
+    position: absolute;
+    padding-left: 400px;
+    padding-top: 100px;
+    font-size: 30px;
+}
+.step3{
+    position: absolute;
+    padding-left: 600px;
+    padding-top: 100px;
+    font-size: 30px;
+}
+.step4{
+    position: absolute;
+    padding-left: 800px;
+    padding-top: 100px;
+    font-size: 30px;
+}
+#step1pic{
+    position: absolute;
+    top: 240px;
+    left: 180px;
+}
+#step2pic{
+    position: absolute;
+    top: 230px;
+    left: 380px;
+}
+#step3pic{
+    position: absolute;
+    left: 580px;
+    top: 230px;
+}
+#step4pic{
+    position: absolute;
+    left: 780px;
+    top: 230px;
+}
+.step1txt{
+    position: absolute;
+    left: 180px;
+    top: 400px;
+}
+.step1txt2{
+    position: absolute;
+    left: 180px;
+    top: 420px;
+}
+.step1txt3{
+    position: absolute;
+    left: 180px;
+    top: 440px;
+}
+.step2txt{
+    position: absolute;
+    left: 380px;
+    top: 400px;
+}
+.step2txt2{
+    position: absolute;
+    left: 380px;
+    top: 420px;
+}
+.step3txt{
+    position: absolute;
+    left: 580px;
+    top: 400px;
+}
+.step4txt{
+    position: absolute;
+    left: 780px;
+    top: 400px;
+}

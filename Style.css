@@ -1,0 +1,103 @@
+
+ body {
+	font-size: 16px;
+	line-height: 1.4em;
+	color: #222;
+	font-family: 'Raleway', sans-serif;
+}
+
+ #navbar ul {
+	margin: 0; 
+	padding: 28px; 
+	list-style-type: none; 
+	text-align: right; 
+	background-color: #000; 
+	
+	
+	} 
+ 
+#navbar ul li {  
+	display: inline; 
+	} 
+ 
+#navbar ul li a { 
+	text-decoration: none; 
+	padding: .2em 1em; 
+	color: #fff; 
+	background-color: #000; 
+	} 
+ 
+#navbar ul li a:hover { 
+	color: #000; 
+	background-color: #fff; 
+	} 
+
+.section {
+	max-width: 100%; 
+	height: 42em;
+	padding: 10px;
+}
+
+.s1 {
+	color: #000;
+	font-size: 6em;
+	font-weight: 200;
+	text-align: left;
+    padding: 2.5em 0;
+    padding-left:1em;
+    line-height: 85px;
+}
+
+.s1txt{
+    font-size: 6em;
+    position: absolute;
+    top: 280px;
+    line-height: 85px;
+    
+}
+
+.s2 h2 {
+	color: #FFF;
+	font-size: 6em;
+	font-weight: 200;
+	text-align: right;
+	padding: 2.5em 0;
+	padding-right:1em;
+    line-height: 85px;
+    
+}
+
+.s3 h2 {
+	color: #000;
+	font-size: 6em;
+	font-weight: 200;
+	text-align: Left;
+	padding: 2.5em 0;
+	padding-left:1em;
+}
+
+.s4 h2 {
+	color: #FFF;
+	font-size: 6em;
+	font-weight: 200;
+	text-align: right;
+	padding: 2.5em 0;
+	padding-right:1em;
+}
+
+
+.s1{
+	background: #FFF;
+}
+
+.s2{
+	background: #000;
+}
+
+.s3{
+	background: #fff;
+}
+
+.s4{
+	background: #000;
+}
